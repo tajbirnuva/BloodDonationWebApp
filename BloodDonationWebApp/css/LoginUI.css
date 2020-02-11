@@ -1,0 +1,141 @@
+﻿
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.loginInbox
+{
+    border-radius: 30px;
+    width: 400px;
+    background: rgba(0,0,0,0.3);
+    color: whitesmoke;
+    
+    margin-left: 800px;
+    text-align: center;
+    padding: 40px;
+}
+
+.loginInbox:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.loginInbox input[type="text"],.loginInbox input[type="password"]{
+    
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 5px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+
+ #loginButton{
+        border: 0px;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 5px 40px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+     cursor: pointer;
+}
+
+#loginButton:hover {
+    background: dodgerblue;
+  }
+
+
+
+.SignupInbox
+{
+    border-radius: 30px;
+    width: 400px;
+    background: rgba(0,0,0,0.3);
+    color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-120%, -35%);
+    text-align: center;
+    padding: 40px;
+}
+
+.SignupInbox:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.SignupInbox input[type="text"],.SignupInbox input[type="password"]{
+    
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 5px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    
+}
+
+
+#signupButton{
+        border: 0px;
+    display: block;
+    background: none;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    padding: 5px 40px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 24px;
+    transition: 0.25s;
+     cursor: pointer;
+}
+
+ #signupButton:hover {
+    background: dodgerblue;
+  }
+
+
+ .Output
+{
+     display: block;
+    background: rgba(0,0,0,0.1);
+    margin: 10px 830px;
+    text-align: center;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Lobster Two', cursive;
+    
+}
+
+.Output:hover {
+    background: rgba(0,0,0,0.6);
+    color: white;
+}
